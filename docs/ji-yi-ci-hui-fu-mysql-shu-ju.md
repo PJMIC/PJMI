@@ -11,7 +11,9 @@
 - 通过 解析base64`-v --base64-output=decode-rows`并过滤只提取 `--database` 库的日志.
     ```shell
     mysqlbinlog -v --base64-output=decode-rows --database=databasename mysql-bin.000016 > 16.log
+    
 - 当前目录下的 `mysql-bin.000016` 并输出到当前 `16.log`文件中.
+
     ```text
     /*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=1*/;
     /*!50003 SET @OLD_COMPLETION_TYPE=@@COMPLETION_TYPE,COMPLETION_TYPE=0*/;
@@ -23,7 +25,9 @@
     # [empty]
     # at 154
     .....
+    
 - 最后提取`INSERT INTO `语句大概是这样的：
+
     ```text
     # at 507657591
     # ...
@@ -33,6 +37,7 @@
     ###   @2=61
     ###   @3=NULL
     ###   .....
+    
 - 上面的 `@` 符号后面的数字就是字段的下标，从`1`开始.
 - 最后解析了`76G`日志
   
