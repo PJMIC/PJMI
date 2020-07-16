@@ -4,8 +4,8 @@
 
 ### 一个在线学习Java的文档
 
-- 在线阅读地址：
-- Github：
+- 在线阅读地址：https://hafine.club/
+- Github：https://github.com/PJMIC/PJMIC.github.io
 - 码云：
 
 
