@@ -1,12 +1,8 @@
 <p align="center">
-<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2481424715,2807309609&fm=26&gp=0.jpg" width="200" height="200"/>
+<img src="https://s1.ax1x.com/2020/07/16/Ur37Is.jpg" alt="Ur37Is.jpg" border="0" width="100" height="100" />
 </p>
-<h1 align="center">docsify-demo</h1>
+<h1 align="center">Micro Ming</h1>
 
-[常用资源](https://shimo.im/docs/MuiACIg1HlYfVxrj/)
-[GitHub](https://github.com/Snailclimb/docsify-demo)
-[开始阅读](#docsify-demo)
-
-
-
-
+[搭建博客](./docs/how-to-use-docsify.md)
+[GitHub](https://github.com/PJMIC/PJMIC.github.io)
+[开始阅读](#docsify-online-doc)
