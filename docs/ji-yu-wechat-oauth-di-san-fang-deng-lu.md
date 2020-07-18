@@ -14,4 +14,4 @@ isTop: false
 
 # 流程图
 
-![](https://pjmic.github.io//post-images/1582553011394.png)
+![](post-images/1582553011394.png)

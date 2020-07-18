@@ -45,21 +45,21 @@ public class Tper {
 
 ```java
 @Test
-    public void builderInterfaceTest() {
-        //创建对象
-        Tper tper = Tper.builder ().
-                name ( "张三" ).
-                age ( "19" ).
-                sex ( "男" ).
-                hobby ( "Code" ).
-                aDouble ( 8D ).
-                build ();
-        System.out.println ( tper );
-    }
+public void builderInterfaceTest() {
+    //创建对象
+    Tper tper = Tper.builder ().
+            name ( "张三" ).
+            age ( "19" ).
+            sex ( "男" ).
+            hobby ( "Code" ).
+            aDouble ( 8D ).
+            build ();
+    System.out.println ( tper );
+}
 ```
 
 - **测试结果：**
 
-​    ![](https://pjmic.github.io//post-images/1579484887683.jpg)
+​![测试结果](post-images\1579484887683.jpg)
 
 > **Share Over !**
